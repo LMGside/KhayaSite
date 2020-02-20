@@ -1,0 +1,244 @@
+/* =================================
+------------------------------------
+  Civic - CV Resume
+  Version: 1.0
+ ------------------------------------ 
+ ====================================*/
+
+/*----------------------------------------*/
+/* Template default CSS
+/*----------------------------------------*/
+	.header-title
+	{
+		background: center center no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		-o-background-size: cover;
+		height: 100%
+	}
+	.nav-bar
+	{
+		position: relative;
+		text-align: center;
+		float: none;
+	}
+
+	.nav-bar>li 
+	{
+		float: none;
+		display: inline-block;
+	}
+
+	.nav-bar>li>a
+	{
+		display: block;
+		padding: 25px 25px;
+		line-height: 30px;
+		font-weight: 400;
+		text-transform: uppercase;
+		transition: 0.4s all;
+		color: #fff;
+	}
+
+	.nav-bar .logo {
+		display: inline-block;
+		line-height: 70px;
+		height: 70px;
+		bottom: 0;
+	}
+
+	ul
+	{
+		list-style: none;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.navigation
+	{
+		/*border-bottom: 1px solid #000000;*/
+		padding-left: 40px;
+		background-color: #000000;
+		
+	}
+
+	.nav-bar li a:hover
+	{
+		color:#000000 !important;
+		background-color: #fff;
+	}
+
+	.start-section
+	{
+		background-color: #d4e7fa;
+	}
+
+	.profile-img
+	{
+		border-radius: 40%;
+		margin-bottom: 20px;
+	}
+	
+	.general-section
+	{
+		background: #000000;
+		padding: 20px 0;
+	}
+
+	.workE-section
+	{
+		background-color: #d4e7fa;
+	}
+
+	.top-text {
+		margin-bottom: 80px;
+	}
+
+	.top-text h2 
+	{
+		font-size: 100px;
+		line-height: normal;
+		margin-bottom: 30px;
+	}
+
+	.top-text p 
+	{
+		font-size: 33px;
+		line-height: 1.3;
+	}
+
+	.gen-info ul {
+		list-style: none;
+	}
+
+	.gen-info ul li {
+		font-size: 24px;
+		color: #808181;
+		margin-bottom: 15px;
+	}
+
+	.gen-info ul li span {
+		color: #40424a;
+		display: inline-block;
+		min-width: 220px;
+	}
+
+	.point-list {
+		list-style: none;
+		margin-left: 60px;
+		padding-left: 110px;
+		padding-right: 30px;
+		border-left: 2px solid #40424a;
+	}
+
+	.point-list li {
+		margin-bottom: 120px;
+		position: relative;
+	}
+
+	.point-list li:last-child {
+		margin-bottom: 0;
+	}
+
+	.point-list li:after {
+		position: absolute;
+		content: '';
+		width: 15px;
+		height: 15px;
+		border: 2px solid #40424a;
+		border-radius: 50px;
+		background: #cacaca;
+		top: 30px;
+		left: -118px;
+	}
+
+	.point-list h2 {
+		font-size: 72px;
+		margin-bottom: 10px;
+	}
+
+	.point-list h4 {
+		font-size: 16px;
+		text-transform: uppercase;
+		color: #808181;
+		margin-top: 10px;
+		margin-bottom: 45px;
+	}
+
+	.point-list p {
+		margin-bottom: 0;
+	}
+
+	.head-title
+	{
+		display: inline-block;
+		position: relative;
+		margin-bottom: 110px;
+		padding-bottom: 2px;
+		line-height: normal;
+	}
+	/* Underline Head Titles */
+	.head-title::after 
+	{
+		position: absolute;
+		content: '';
+		width: 100%;
+		height: 4px;
+		left: 0;
+		bottom: 0;
+		background: #111010;
+	}
+
+	.box
+	{
+		height: 600px; 
+		width: 80%; 
+		display: table; 
+		
+		background-color: #d4e7fa;
+		margin-bottom: 10px
+	}
+
+	.tags-list ul li 
+	{
+	display: inline-block;
+	margin-right: 4px;
+	margin-bottom: 26px;
+	}
+
+	.tags-list ul li a 
+	{
+	display: block;
+	padding: 10px 15px;
+	font-size: 30px;
+	font-weight: 300;
+	color:#111010;
+	background-color: white;
+	border-radius: 2px;
+	transition: 0.4s all;
+	}
+
+	.tags-list ul li a:hover, .tags-widget ul li a:focus 
+	{
+	color: #fff !important;
+	background-color:#000000;
+	}
+
+	.social-borders
+	{
+		border-top: 1px solid #111c0c;
+		padding: 10px 10px 10px 10px;
+	}
+
+	.social-borders a i
+	{
+		margin-right: 12px;
+		margin-left: 12px; 
+	}
+
+	.social-borders a i
+	{
+		font-size: 40px;
+		color: #000000;
+	}
